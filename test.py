@@ -5,7 +5,7 @@ from splinter import Browser
 browser = Browser('chrome',incognito=True)
 browser.visit('http://165.105.239.1/')
 browser.fill('cprouterusername', 'admin')
-browser.fill('cprouterpassword', 'p244W0RD')
+browser.fill('cprouterpassword', 'fgfdgfds')
 browser.find_by_id('button-1020-btnInnerEl').click()
 time.sleep(3)
 #browser.reload()
